@@ -1,0 +1,48 @@
+.details {
+	&__title {
+		padding-left: 15px;
+	}
+	&__description {
+		font-size: 16px;
+		padding: 10px;
+		opacity: 0.7;
+	}
+	&__banner {
+		display: flex;
+		flex-direction: row;
+		padding: 10px 0;
+		border-bottom: 2px double #efefef;
+		&__ingredients {
+			width: 40%;
+		}
+		&__image {
+			width: 50%;
+			padding: 0 5%;
+		}
+	}
+	&__steps {
+		h2 {
+			text-decoration: underline;
+		}
+		font-size: 16px;
+		font-weight: bold;
+		margin-top: 25px;
+		list-style-type: none;
+		counter-reset: stepCounter;
+		margin: 0 30px 0 0;
+		&__step {
+			&:before {
+				counter-increment: stepCounter;
+				content: counter(stepCounter);
+				background-color: #efefef;
+				margin-right: 10px;
+				font-family: 'Roboto';
+			}
+			background-color: #efefef;
+			line-height: 24px;
+			margin: 5px 0;
+			padding: 5px;
+		}
+	}
+
+}

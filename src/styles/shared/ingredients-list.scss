@@ -1,0 +1,29 @@
+.ingredients-list {
+	list-style: none;
+	padding: 0 10px;
+	height: 100%;
+	&__item {
+		line-height: 1em;
+		padding: 5px 0;
+		&__checkbox {
+			display: inline-block;
+			padding-left: 0;
+			margin: auto 0;
+			width: 10%;
+			vertical-align: middle;
+		}
+		&__description {
+			text-transform: uppercase;
+			font-weight: bold;
+			font-size: 12px;
+			margin: 0;
+			display: inline-block;
+			width: 90%;
+			vertical-align: middle;
+			&__qualifier {
+				padding-left: 2px;
+				opacity: 0.5;
+			}
+		}
+	}
+}

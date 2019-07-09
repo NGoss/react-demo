@@ -1,0 +1,13 @@
+.recipe-list {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 40px 10px;
+	overflow: auto;
+}
+
+.loading-spinner {
+	color: #548ee4;
+	position: absolute;
+	top: calc(50% - 50px);
+	left: calc(50% - 50px);
+}
