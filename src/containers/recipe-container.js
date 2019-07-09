@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 
-import { loadRecipes, openRecipeModal } from 'reducers/actions'
+import { openRecipeModal } from 'reducers/actions'
 
 import Recipe from 'components/product/recipe'
 

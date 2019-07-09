@@ -9,7 +9,7 @@ import RecipeContainer from 'containers/recipe-container'
 
 class RecipeList extends Component {
 	render() {
-		const { recipes, selectRecipe } = this.props
+		const { recipes } = this.props
 		if (!recipes) {
 			return (
 				<CircularProgress className="loading-spinner"
